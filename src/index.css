@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: white; /* or any color you want for the caret */
+    }
+}
+
+
+.skill-icon {
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* This will add a subtle shadow to the icons */
+  }
+  
+  .skill-icon:hover {
+    transform: scale(1.2) rotate(20deg); 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.12); /* A more pronounced shadow on hover */
+  }
+  
+
+
+.skill-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transform: translateY(0);
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05) translateY(-5px); /* Slight up-lift effect without rotation */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.12); /* More pronounced shadow */
+  }
+  
