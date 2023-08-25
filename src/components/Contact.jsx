@@ -63,20 +63,22 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify
+          data-netlify="true"
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
             I'm actively seeking internship opportunities in the field of
-            software development or data science. If you have an opening or if you'd like to
-            just learn more about my skills and experiences, please get in touch. I'm
-            eager to bring my passion for coding and problem-solving to a
-            dynamic team for any opportunity that arises. Thank you!
+            software development or data science. If you have an opening or if
+            you'd like to just learn more about my skills and experiences,
+            please get in touch. I'm eager to bring my passion for coding and
+            problem-solving to a dynamic team for any opportunity that arises.
+            Thank you!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
