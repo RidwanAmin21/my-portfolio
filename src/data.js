@@ -21,7 +21,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "For 10 weeks from February 2023 to May 2023 I Collaborated as a key team member in a group of four to develop a full-scale social media application, serving on the team as a Full-Stack developer. While on the team, I devised the front-end UI using Flutter, and integrated secure and efficient APIs for seamless data transfers and fynamic UI updates",
+      "For 10 weeks from February 2023 to May 2023 I Collaborated as a key team member in a group of four to develop a full-scale social media application, serving on the team as a Full-Stack developer. While on the team, I devised the front-end UI using Flutter, and integrated secure and efficient APIs for seamless data transfers and dynamic UI updates",
     image: "./acm.png",
     name: "Full-Stack Developer",
     company: "ACM UTD",
@@ -37,7 +37,7 @@ export const testimonials = [
 
 export const skills = [
   {name: "JavaScript", icon: "./js.png"},
-  {name: "React", icon: "./favicon.ico"},
+  {name: "React", icon: "./react.png"},
   {name: "C++", icon: "./C++.png"},
   {name: "Java", icon: "./java.png"},
   {name: "Python", icon: "./python.png"},
